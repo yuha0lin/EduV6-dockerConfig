@@ -1,3 +1,7 @@
+---
+写在前面：出于习惯，此处一律推荐Docker启动，因此P1、P2上都需要安装Docker
+---
+
 # EduV6-dockerConfig
 针对国内许多高校鼓励IPv6的 **“校外IPv6资源免计费政策”** 提供校内免流上网的方案
 
@@ -8,8 +12,6 @@
 <img src="./img/Architecture.png" alt="Architecture" style="zoom: 67%;" />
 
 ### 快速启动
-
-[^注]: 出于习惯，此处一律推荐Docker启动，因此P1、P2上都需要安装Docker
 
 需要有一台运行在内网的服务器或是电脑（我用的是一台GMK的mini主机）作为代理服务器以下称为P1，确保支持IPv6
 
