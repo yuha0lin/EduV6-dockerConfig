@@ -1,11 +1,11 @@
 # EduV6-dockerConfig
 针对国内许多高校鼓励IPv6的 **“校外IPv6资源免计费政策”** 提供校内免流上网的方案
 
-![某高校网信办计费政策](.\img\某高校网信办计费政策.png)
+![某高校网信办计费政策](./img/某高校网信办计费政策.png)
 
 本方案可在校园内网搭建代理服务器，转发至校外服务器代理上网
 
-<img src=".\img\Architecture.png" alt="Architecture" style="zoom: 67%;" />
+<img src="./img/Architecture.png" alt="Architecture" style="zoom: 67%;" />
 
 ### 快速启动
 
