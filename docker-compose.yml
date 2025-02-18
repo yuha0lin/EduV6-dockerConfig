@@ -1,0 +1,13 @@
+version: '3'
+services:
+  v2ray-server:
+    image: ghcr.io/yuha0lin/v2ray:latest-extra  # 或改用 Xray 镜像：teddysun/xray:latest
+    container_name: v2ray-server
+    network_mode: "host"  # 直接使用宿主机网络（避免端口映射问题）
+    # restart: unless-stopped
+    volumes:
+      - ./config.json:/etc/v2ray/config.json  # 配置文件挂载
+      # - /path/to/tls-certificates:/etc/v2ray/certs  # TLS证书目录（可选）
+    environment:
+      - V2RAY_VMESS_AEAD_FORCED=false  # 兼容旧版客户端
+    command: run -config=/etc/v2ray/config.json
