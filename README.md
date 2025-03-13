@@ -1,5 +1,5 @@
 ---
-出于习惯，此处一律推荐Docker启动，因此P1、P2上都需要安装Docker
+此处一律推荐Docker启动，因此P1、P2上都需要安装Docker
 ---
 
 # EduV6-dockerConfig
